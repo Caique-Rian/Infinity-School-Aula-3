@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, red, black);
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+
+.divPrincipal{
+  box-shadow: 0 0 20px 0 #000;
+  min-height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+form{
+  grid-column: 2;
+  height: 350px;
+  width: 450px;
+}
+
+a{
+  color: white;
+}
+
+button{
+  padding: 8px 25px 8px 25px;
+  border-radius: 5px;
+  border: none;
+}
